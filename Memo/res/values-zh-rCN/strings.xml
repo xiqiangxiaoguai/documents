@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- begin: added by yunzhou.song -->
+    <string name="forward">&lt;</string>
+    <string name="backward">&gt;</string>
+    <string name="app_name">备忘录</string>
+    <string name="insert_mode">插入模式</string>
+    <string name="paint_mode">手绘模式</string>
+    <string name="eraser">橡皮擦</string>
+    <string name="redo">重做</string>
+    <string name="undo">撤销</string>
+    <string name="move">移动</string>
+    <string name="input_title">输入标题</string>
+    <string name="add_text">添加文本</string>
+    <string name="add_image">添加图片</string>
+    <string name="add_audio">添加音频</string>
+    <string name="add_label">添加标签</string>
+    <string name="modify_label">修改标签</string>
+    <string name="add_star">添加收藏</string>
+    <string name="export_image">导出图片</string>
+    <string name="image">图片</string>
+    <string name="take_image">拍照</string>
+    <string name="map">地图</string>
+    <string name="image_picker_not_found">没有可用图片。</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="background">背景</string>
+    <string name="set_as">设置为&#8230;</string>
+    <string name="share">分享</string>
+    <string name="export_to_gallery">导出到图库</string>
+    <string name="cancel_note_msg">备忘录未保存，是否取消？</string>
+    <string name="clear_all">全部清除</string>
+    <string name="save_group">保存堆栈</string>
+    <string name="group_name">备忘录堆栈名称</string>
+    <string name="saving_note">正在保存备忘录&#8230;</string>
+    <string name="saving_group">正在保存堆栈&#8230;</string>
+    <string name="updating_note_group">正在更新备忘录堆栈&#8230;</string>
+    <string name="loading_note">正在加载备忘录数据&#8230;</string>
+    <string name="note_is_blank">备忘录为空</string>
+    <string name="memo_background">备忘录背景</string>
+    <string name="set_as_background">设为背景</string>
+    <string name="replace">替换</string>
+    <string name="exporting">正在导出&#8230;</string>
+    <string name="export_complete">导出完成</string>
+    <string name="add_or_load_image_error">添加/加载图片出错</string>
+    <string name="play_record_error">播放录音出错</string>
+    <string name="record_error">录音出错</string>
+    <!-- end: added by yunzhou.song -->
+    
+    <!-- begin: added by gangzhou.qi -->
+    <string name="add">增加</string>
+    <string name="delete">删除</string>
+    <string name="switch_display_mode_list">按列表显示</string>
+    <string name="switch_display_mode_grid">按缩略图显示</string>
+    <string name="hint_findContacts">查询</string>
+    <string name="search">查询</string>
+    <string name="switch_order">排序</string>
+    <string name="choose_checkbox">全选</string>
+    <string name="no_title">无标题</string>
+    <string name="no_label">无标签</string>
+    <string name="export_fail">导出失败</string>
+    <string name="memo_delete_alert_title">要删除备忘录吗？</string>
+    <string name="memo_delete_alert_message">将会删除所选的备忘录。</string>
+    <string name="create_time">按创建时间</string>
+    <string name="by_title">按标题</string>
+    <string name="by_label">按标签</string>
+    <string name="by_audio">包含语音</string>
+    <string name="by_text">文本优先</string>
+    <string name="by_star">按收藏</string>
+    <string name="menu_edit">编辑</string>
+    <string name="rename">重命名</string>
+    <!-- end: added by gangzhou.qi -->
+    
+	<!-- begin: added by lijuan.li -->
+    <string name="font_style_one">字体一</string>
+    <string name="font_style_two">字体二</string>
+    <string name="font_style_three">字体三</string>
+    <string name="font_style_four">字体四</string>
+    <string name="font_nomarl">常规</string>
+    <string name="font_bold">粗体</string>
+    <string name="font_italic">斜体</string>
+    <string name="font_italic_bold">粗体 斜体</string>
+    <string name="font_setting_title">字体设置</string>
+    <string name="preview_text">AaCcDd</string>
+    <!-- end: added by lijuan.li-->
+
+    <!-- Added by yongan.qiu begin-->
+    <string name="add_widget">添加到桌面</string>
+    <string name="widget_title">备忘录</string>
+    <string name="add_widget_success">添加成功</string>
+    <string name="add_widget_failed">添加失败</string>
+    <string name="widget_error">加载备忘录出错</string>
+    <string name="widget_already_exists">桌面已存在该备忘录</string>
+    <string name="view_note">查看备忘录</string>
+    <!-- Added by yongan.qiu end-->
+
+</resources>

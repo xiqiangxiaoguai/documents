@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tcl.memo.view.CRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/note_editor_bg"
+    android:paddingBottom="5px"
+    android:paddingLeft="5px"
+    android:paddingRight="5px" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dip" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+            <EditText
+                android:id="@+id/note_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="210dip"
+                android:background="@null"
+                android:hint="@string/input_title"
+                android:scrollHorizontally="true"
+                android:singleLine="true" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/add_bar_bg"
+                android:padding="0dip" >
+
+                <CheckBox
+                    android:id="@+id/move"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="0dip"
+                    android:background="@drawable/add_bar_left_item_bg"
+                    android:button="@drawable/move"
+                    android:contentDescription="@string/move" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/add_bar_divider" />
+
+                <ImageButton
+                    android:id="@+id/add_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/add_bar_middle_item_bg"
+                    android:contentDescription="@string/add_text"
+                    android:src="@drawable/add_text" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/add_bar_divider" />
+
+                <ImageButton
+                    android:id="@+id/add_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/add_bar_middle_item_bg"
+                    android:contentDescription="@string/add_image"
+                    android:src="@drawable/add_image" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/add_bar_divider" />
+
+                <ImageButton
+                    android:id="@+id/add_audio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/add_bar_middle_item_bg"
+                    android:contentDescription="@string/add_audio"
+                    android:src="@drawable/add_audio" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/add_bar_divider" />
+
+                <CheckBox
+                    android:id="@+id/add_star"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="0dip"
+                    android:background="@drawable/add_bar_right_item_bg"
+                    android:button="@drawable/add_star"
+                    android:contentDescription="@string/add_star" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <com.tcl.memo.view.CScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/fill_layout"
+                    android:layout_width="@dimen/note_view_width"
+                    android:layout_height="@dimen/note_view_height" >
+                </LinearLayout>
+
+                <com.tcl.memo.view.NoteView
+                    android:id="@+id/note_view"
+                    android:layout_width="@dimen/note_view_width"
+                    android:layout_height="@dimen/note_view_height" />
+            </RelativeLayout>
+        </com.tcl.memo.view.CScrollView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/forward_backward_layout"
+            android:ellipsize="end"
+            android:padding="5dip"
+            android:singleLine="true"
+            android:textColor="#888888" />
+
+        <LinearLayout
+            android:id="@+id/forward_backward_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="2dip"
+            android:gravity="center_vertical" >
+
+            <Button
+                android:id="@+id/forward"
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:background="@drawable/page_forward_backward"
+                android:gravity="center"
+                android:text="@string/forward"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#888888" >
+            </Button>
+
+            <TextView
+                android:id="@+id/page_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:textColor="#888888" />
+
+            <Button
+                android:id="@+id/backward"
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:background="@drawable/page_forward_backward"
+                android:gravity="center"
+                android:text="@string/backward"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#888888" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/add_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:padding="0dip"
+        android:src="@drawable/add_page" />
+
+</com.tcl.memo.view.CRelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- begin: added by yunzhou.song -->
+    <string name="forward">&lt;</string>
+    <string name="backward">&gt;</string>
+    <string name="app_name">Memo</string>
+    <string name="insert_mode">Insert mode</string>
+    <string name="paint_mode">Hand-painted mode</string>
+    <string name="eraser">Eraser</string>
+    <string name="redo">Redo</string>
+    <string name="undo">Undo</string>
+    <string name="move">Move</string>
+    <string name="input_title">Enter title</string>
+    <string name="add_text">Add text</string>
+    <string name="add_image">Add picture</string>
+    <string name="add_audio">Add audio</string>
+    <string name="add_label">Add tag</string>
+    <string name="modify_label">Modify tag</string>
+    <string name="add_star">Add favorites</string>
+    <string name="export_image">Export</string>
+    <string name="image">Picture</string>
+    <string name="take_image">Take picture</string>
+    <string name="map">Map</string>
+    <string name="image_picker_not_found">No pictures available</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="background">Background</string>
+    <string name="set_as">Set as&#8230;</string>
+    <string name="share">Share via</string>
+    <string name="export_to_gallery">Gallery</string>
+    <string name="cancel_note_msg">Memo not saved. Cancel?</string>
+    <string name="clear_all">Clear all</string>
+    <string name="save_group">Save stack</string>
+    <string name="group_name">Memo stack name</string>
+    <string name="saving_note">Saving memo&#8230;</string>
+    <string name="saving_group">Saving stack&#8230;</string>
+    <string name="updating_note_group">Updating memo stack&#8230;</string>
+    <string name="loading_note">Loading memo data&#8230;</string>
+    <string name="note_is_blank">Memo empty</string>
+    <string name="memo_background">Background</string>
+    <string name="set_as_background">Set background</string>
+    <string name="replace">Replace</string>
+    <string name="exporting">Exporting…&#8230;</string>
+    <string name="export_complete">Exporting completed</string>
+    <string name="add_or_load_image_error">Add/load image error</string>
+    <string name="play_record_error">Play record error</string>
+    <string name="record_error">Record error</string>
+    <!-- end: added by yunzhou.song -->
+    
+    <!-- begin: added by gangzhou.qi -->
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="switch_display_mode_list">View by list</string>
+    <string name="switch_display_mode_grid">View by thumbnail</string>
+    <string name="hint_findContacts">Search</string>
+    <string name="search">Search</string>
+    <string name="switch_order">Sort by</string>
+    <string name="choose_checkbox">Select all</string>
+    <string name="no_title">No title</string>
+    <string name="no_label">No tag</string>
+    <string name="export_fail">Export fail</string>
+    <string name="memo_delete_alert_title">Delete memo?</string>
+    <string name="memo_delete_alert_message">Selected Memo will be deleted</string>
+    <string name="create_time">Creating date</string>
+    <string name="by_title">Title</string>
+    <string name="by_label">Tag</string>
+    <string name="by_audio">Containing voice</string>
+    <string name="by_text">Text</string>
+    <string name="by_star">Favourites</string>
+    <string name="menu_edit">Edit</string>
+    <string name="rename">Rename</string>
+    <!-- end: added by gangzhou.qi -->
+    
+	<!-- begin: added by lijuan.li -->
+    <string name="font_style_one">Font 1</string>
+    <string name="font_style_two">Font 2</string>
+    <string name="font_style_three">Font 3</string>
+    <string name="font_style_four">Font 4</string>
+    <string name="font_nomarl">Regular</string>
+    <string name="font_bold">Bold</string>
+    <string name="font_italic">Italic</string>
+    <string name="font_italic_bold">Bold Italic</string>
+    <string name="font_setting_title">Font</string>
+    <string name="preview_text">AaCcDd</string>
+    <!-- end: added by lijuan.li-->
+
+    <!-- Added by yongan.qiu begin-->
+    <string name="add_widget">Widget</string>
+    <string name="widget_title">Memo</string>
+    <string name="add_widget_success">Add success</string>
+    <string name="add_widget_failed">Add fail</string>
+    <string name="widget_error">Loading memo error</string>
+    <string name="widget_already_exists">Already set as widget</string>
+    <string name="view_note">View memo</string>
+    <!-- Added by yongan.qiu end-->
+
+</resources>

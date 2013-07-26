@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!--     <item
+        android:id="@+id/crop_map"
+        android:showAsAction="always"
+        android:title="@string/crop_map"/>
+    <item
+        android:id="@+id/start_pin"
+        android:showAsAction="always"
+        android:title="@string/start_pin"/>
+    <item
+        android:id="@+id/overlay"
+        android:showAsAction="always"
+        android:title="@string/overlay"/>
+    <item
+        android:id="@+id/button_normal"
+        android:showAsAction="never"
+        android:title="@string/button_normal"/>
+    <item
+        android:id="@+id/button_satellite"
+        android:showAsAction="never"
+        android:title="@string/button_satellite"/>
+    <item
+        android:id="@+id/button_traffic"
+        android:showAsAction="never"
+        android:title="@string/button_traffic"/> -->
+
+</menu>

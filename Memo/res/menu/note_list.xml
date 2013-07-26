@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_add"
+        android:icon="@drawable/add"
+        android:showAsAction="always"
+        android:title="@string/add"/>
+    <item
+        android:id="@+id/menu_delete"
+        android:showAsAction="always"
+        android:title="@string/delete"
+        android:icon="@drawable/delete"/>
+    <item
+        android:id="@+id/switch_display_mode"
+        android:showAsAction="never"
+        android:title="@string/switch_display_mode_list"/>
+    <item
+        android:id="@+id/menu_search"
+        android:showAsAction="never"
+        android:title="@string/search"/>
+    <item
+        android:id="@+id/switch_order"
+        android:showAsAction="never"
+        android:title="@string/switch_order"/>
+
+</menu>

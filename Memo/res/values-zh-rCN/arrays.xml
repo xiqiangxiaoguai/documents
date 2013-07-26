@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="order_array">
+        <item>@string/create_time</item>
+        <item>@string/by_title</item>
+        <item>@string/by_label</item>
+        <item>@string/by_audio</item>
+        <item>@string/by_text</item>
+        <item>@string/by_star</item>
+    </array>
+    <array name="note_list_context">
+        <item>@string/menu_edit</item>
+        <item>@string/delete</item>
+        <item>@string/share</item>
+        <item>@string/export_to_gallery</item>
+        <item>@string/set_as</item>
+    </array> 
+    <array name="note_list_context_group">
+        <item>@string/rename</item>
+        <item>@string/delete</item>
+    </array> 
+    
+    <string-array name="note_bg_big" translatable="false">
+        <item>note_bg_1</item>
+        <item>note_bg_2</item>
+        <item>note_bg_3</item>
+        <item>note_bg_4</item>
+        <item>note_bg_5</item>
+        <item>note_bg_6</item>
+    </string-array>
+    <string-array name="note_bg_small" translatable="false">
+        <item>note_bg_1_small</item>
+        <item>note_bg_2_small</item>
+        <item>note_bg_3_small</item>
+        <item>note_bg_4_small</item>
+        <item>note_bg_5_small</item>
+        <item>note_bg_6_small</item>
+    </string-array>
+
+</resources>

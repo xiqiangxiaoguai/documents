@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="note_view_width">710px</dimen>
+    <dimen name="note_view_height">966px</dimen>
+    <string name="note_view_scale">1.6704226</string>
+
+</resources>

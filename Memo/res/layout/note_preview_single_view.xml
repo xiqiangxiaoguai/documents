@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    
+    >
+    <RelativeLayout
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="5px"
+         >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <TextView
+            android:id="@+id/note_title"
+            android:layout_width="650px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:singleLine="true" 
+            android:paddingRight="100px"
+            android:ellipsize="end"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/add_bar_bg"
+            android:padding="0dip" >
+            <ImageButton
+                android:id="@+id/play_audio"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/play_audio"
+                android:onClick="onPlayAudioClicked"
+                android:contentDescription="@string/add_audio"
+                 />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/add_bar_divider" />
+
+            <CheckBox
+                android:id="@+id/add_star"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="0dip"
+                android:background="@drawable/add_bar_right_item_bg"
+                android:button="@drawable/add_star"
+                android:onClick="onStarClicked"
+                android:contentDescription="@string/add_star" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:layout_below="@+id/preview" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:id="@+id/fill_layout"
+                android:layout_width="@dimen/note_view_width"
+                android:layout_height="@dimen/note_view_height" >
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/note_preview"
+                android:layout_width="@dimen/note_view_width"
+                android:layout_height="@dimen/note_view_height" 
+                android:onClick="onPreviewClicked"
+                android:layout_marginLeft="5px"/>
+            
+            
+        </RelativeLayout>
+    </ScrollView>
+    <TextView
+                android:id="@+id/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/one_in_some"
+                android:padding="5dip"
+                android:textColor="#888888" 
+                android:singleLine="true"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:id="@+id/one_in_some"
+                android:layout_width="200px"
+                android:layout_height="50px"
+                android:textColor="#888888" 
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center" />
+
+</RelativeLayout>

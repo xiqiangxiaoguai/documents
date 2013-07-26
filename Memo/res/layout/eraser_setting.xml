@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="477px"
+    android:layout_height="305px"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/top_pointer"
+            android:layout_marginLeft="77dip" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/title_bar_bg" >
+
+            <ImageButton
+                android:id="@+id/close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="5dip"
+                android:padding="3dip"
+                android:layout_alignParentRight="true"
+                android:background="@null"
+                android:src="@drawable/close"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/eraser_setting_bg"
+        android:paddingBottom="8dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="10dip" >
+
+        <SeekBar
+            android:id="@+id/eraser_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="63dip"
+            android:layout_marginTop="15dip"
+            android:max="100"
+            android:padding="0dip"
+            android:progress="1"
+            android:progressDrawable="@drawable/eraser_progress_bar"
+            android:thumb="@drawable/eraser_handle"
+            android:thumbOffset="0dip" >
+        </SeekBar>
+
+        <RelativeLayout
+            android:layout_width="52dip"
+            android:layout_height="52dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="3dip"
+            android:background="@drawable/eraser_size_bg" >
+
+            <ImageView
+                android:id="@+id/eraser_size_sample"
+                android:layout_width="1px"
+                android:layout_height="1px"
+                android:layout_centerInParent="true"
+                android:background="@drawable/eraser_size_sample" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/clear_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/clear_all"
+            android:text="@string/clear_all"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+</LinearLayout>

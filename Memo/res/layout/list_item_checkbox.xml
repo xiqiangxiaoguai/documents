@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180px" >
+    
+    <RelativeLayout
+        android:id="@+id/list_item"
+        android:layout_width="120px"
+        android:layout_height="160px"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" >
+        <ImageView
+            android:id="@+id/list_item_image"
+            android:layout_width="110px"
+            android:layout_height="150px"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <LinearLayout 
+        android:id="@+id/list_item_content"
+        android:layout_height="fill_parent"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:padding="10px"
+        android:layout_toRightOf="@+id/list_item"
+        >
+    <TextView android:id="@+id/list_item_title"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textSize="50px"
+        android:singleLine="true"
+        android:ellipsize="end"
+        />
+    <TextView android:id="@+id/list_item_date"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textColor="@android:color/black"
+        android:textSize="30px"
+        android:textStyle="italic"
+        />
+    <TextView android:id="@+id/list_item_label"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textColor="@android:color/black"
+        android:textSize="30px"
+        android:singleLine="true"
+        android:ellipsize="end"
+        />
+    <TextView android:id="@+id/group_name"
+       android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="40px"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone"
+        android:layout_marginTop="50px"
+        android:singleLine="true"
+        android:ellipsize="end"
+        />
+    </LinearLayout>
+    
+    <CheckBox
+        android:id="@+id/list_item_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:clickable="false"
+        android:focusable="false" />
+    <ImageView
+        android:id="@+id/audio_mark"
+        android:layout_width="30px"
+        android:layout_height="30px"
+        android:layout_marginBottom="3px"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/audio_mark"
+        android:layout_toLeftOf="@+id/star_mark"
+         />
+
+    <ImageView
+        android:id="@+id/star_mark"
+        android:layout_width="30px"
+        android:layout_height="30px"
+        android:layout_marginBottom="3px"
+        android:layout_marginRight="3px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/star_mark"
+         />
+</RelativeLayout>

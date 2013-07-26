@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+
+	<com.google.android.maps.MapView
+		android:id="@+id/mapview" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:enabled="true"
+		android:clickable="true" android:apiKey="07h6areMsNxP6zQF2EJRKjGM0pA6ZTeFwqUCQhw"
+		 />
+	<com.tcl.memo.view.MapCropView
+	    android:id="@+id/mapview" 
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:focusable="false"
+		android:focusableInTouchMode="false"
+	/>
+</RelativeLayout>

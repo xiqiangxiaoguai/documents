@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_bar_tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical" >
+
+    <RadioButton
+        android:id="@+id/insert_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/insert_mode"
+        android:contentDescription="@string/insert_mode" />
+
+    <RadioButton
+        android:id="@+id/paint_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/paint_mode"
+        android:checked="true"
+        android:contentDescription="@string/paint_mode"
+        android:tag="0" />
+
+    <RadioButton
+        android:id="@+id/eraser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/eraser"
+        android:contentDescription="@string/eraser" />
+
+    <ImageButton
+        android:id="@+id/undo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:contentDescription="@string/undo"
+        android:enabled="false"
+        android:src="@drawable/undo" />
+
+    <ImageButton
+        android:id="@+id/redo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:contentDescription="@string/redo"
+        android:enabled="false"
+        android:src="@drawable/redo" />
+
+</LinearLayout>
